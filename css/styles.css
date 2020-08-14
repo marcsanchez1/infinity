@@ -58,7 +58,7 @@ header {
   display: flex;
   flex-direction: column;
   background: linear-gradient(#1a1b1b, transparent 80%),
-              url('/images/polished-elevators2.jpg') no-repeat center top; /* https://images.unsplash.com/photo-1547630824-eed1be6a27b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
+              url('https://marcsanchez1.github.io/infinity/images/polished-elevators2.jpg') no-repeat center top; /* https://images.unsplash.com/photo-1547630824-eed1be6a27b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
