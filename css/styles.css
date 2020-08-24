@@ -229,6 +229,34 @@ footer .copyright {
   font-size: .875em;
 }
 
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav ul {
+  display: flex;
+}
+
+.footer-nav li {
+  list-style: none;
+}
+
+.footer-nav li a {
+  padding: 10px;
+  color: #FFF;
+}
+
+.footer-social {
+  margin-left: auto;
+}
+
+.footer-social a {
+  color: #FFF;
+  font-size: 1.5em;
+}
+
 /* ============================
         MEDIA QUERIES 
 ================================ */
