@@ -57,10 +57,23 @@ img {
 header {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#1a1b1b, transparent 80%),
-              url('https://marcsanchez1.github.io/infinity/images/polished-elevators2.jpg') no-repeat center top; /* https://images.unsplash.com/photo-1547630824-eed1be6a27b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
+  background: url('https://images.unsplash.com/photo-1472577938094-84871b72ccac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80') no-repeat center top; /* https://images.unsplash.com/photo-1547630824-eed1be6a27b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 */
   background-size: cover;
   height: 100vh;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+header * {
+  z-index: 10;
 }
 
 .navbar-brand img {
@@ -75,6 +88,14 @@ a.nav-link {
 
 a.nav-link:hover {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 header h1,
@@ -97,7 +118,7 @@ header p {
 a.request-quote-btn {
   align-self: center;
   color: rgb(194, 193, 193);
-  border: 1px solid #c2c1c1;
+  border: 2px solid #c2c1c1;
   border-radius: 5px;
   padding: 10px;
   margin-top: 25px;
