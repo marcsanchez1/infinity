@@ -1,154 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Brass Polishing, Copper Polishing, Stainless Steel, Bronze Polishing, Historical Restoration, Chandelier Cleaning, Oxidizing, Anodize Aluminum, Powder Coating." />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <title>Infinity Metal and Marble | Tri-State Area</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity Metal and Marble</title>
+    <meta
+      name="keywords"
+      content="Brass Polishing, Copper Polishing, Stainless Steel, Bronze Polishing, Historical Restoration, Chandelier Cleaning, Oxidizing, Anodize Aluminum, Powder Coating."
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
   </head>
   <body>
-    <!-- Top contact and social bar -->
-    <div class="top-contact-bar">
-      <div class="container d-flex justify-content-between align-items-center">
-        <div class="intro-contact d-flex align-items-center">
-          Need a Quote?  <a href="tel:2017796757"><i class="fas fa-mobile-alt"></i> (201) 779-6757</a>
-        </div>
-        <div class="intro-social">
-          <a href="#"><i class="fab fa-instagram-square"></i></a>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Top nav -->
-    <header id="header-inner">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-none top">
+    <header id="main-header-inner" class="homepage">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo-horizontal-white.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="images/logo-horizontal-white.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home </a>
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Services
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="metal.html">Metal</a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="metal.html" target="_blank"
+                    >Metal</a
+                  >
                   <a class="dropdown-item" href="marble.html">Marble</a>
-                  <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="wood.html">Wood</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="#">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-          </div>
+          </div
         </div>
       </nav>
       <div class="header-content">
-        <h1>About</h1>
-        <p span class="header-slogan">
-          Infiniti Metal and Marble
-        </p>
+        <h1 class="header-title">About Us</h1>
+        <!-- <p class="header-text">"Bringing Your Metal Back To Life"</p> -->
+        <div class="gold-rule"></div>
       </div>
     </header>
 
-    <!-- About Content -->
-    <section class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h3><i class="fas fa-book"></i> Core Values</h3>
-          <p class="paragraph-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta repellendus sunt pariatur quos quaerat porro. Impedit tenetur perferendis eum totam temporibus velit dolorum rem repellat hic numquam ipsum obcaecati soluta sit, voluptatibus at quos! Quos provident, omnis ipsum maxime amet odit suscipit? Maiores quibusdam harum temporibus iste corporis obcaecati necessitatibus, aliquam fugit et distinctio. Quod minima hic quae nemo. Eius recusandae debitis asperiores fuga nesciunt pariatur ipsa nam cupiditate eos. Doloremque necessitatibus quae iure?
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3><i class="fas fa-thumbs-up"></i> Quality</h3>
-          <p class="paragraph-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab soluta repellendus sunt pariatur quos quaerat porro. Impedit tenetur perferendis eum totam temporibus velit dolorum rem repellat hic numquam ipsum obcaecati soluta sit, voluptatibus at quos! Quos provident, omnis ipsum maxime amet odit suscipit? Maiores quibusdam harum temporibus iste corporis obcaecati necessitatibus, aliquam fugit et distinctio. Quod minima hic quae nemo. Eius recusandae debitis asperiores fuga nesciunt pariatur ipsa nam cupiditate eos. Doloremque necessitatibus quae iure?
-          </p>
+    <!-- Section About Us -->
+    <section id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3><img class="flag" src="images/flagInMap.png" alt=""> Founded in 2016</h3>
+            <p class="normal-text">
+              With over 20 years of experience, Inifinity Metal and Marble, LLC. was founded to provide a level of service and quality to our client matched by no one in the industry. We strive to always maintain a high level of professionalism while also creating a relationship that builds confidence in our team with 100% satisfaction.
+            </p>
+            <p class="normal-text"> Inifinity Metal and Marble, LLC is fully licensed and insured. Family owned and operated, we have been providing a broad range of high quality restoration and maintenance services to commercial, residential, retail and hospitality facilities throughout the tri-state area. Our restoration technicians dedicate their craftmanship to every project. 
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/about-page-img.jpg" alt="">
+          </div>
         </div>
       </div>
-      <div class="container border-top">
+    </section>
+
+    <hr>
+
+    <section id="give-back">
+      <div class="container">
         <div class="row">
-          <div class="col-md-4 mt-4">
-            <img src="https://images.unsplash.com/photo-1584549239925-5554aa6b9183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" alt="">
+          <div class="col-md-5 order-2 order-md-1">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="">
           </div>
-          <div class="col-md-8 mt-4">
-            <p class="paragraph-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam magnam distinctio, sint assumenda exercitationem ab illum earum esse temporibus perspiciatis sequi aliquid est ea molestias voluptates dolores non laborum voluptas, ducimus aliquam? Quaerat commodi vitae dolorem, natus minima accusamus nisi sequi accusantium doloremque veniam maxime neque soluta, animi dolore officia officiis libero similique maiores quo totam et magnam asperiores aliquam! Earum iure ullam voluptatem mollitia iusto ea distinctio voluptatibus, officia cupiditate cum non aut nostrum esse optio odio, natus dolorem ratione minima incidunt fuga? Iste rerum, odit reprehenderit cum necessitatibus maxime quidem quibusdam dolor possimus, delectus alias exercitationem eaque ea.
+          <div class="col-md-6 order-1 order-md-2">
+            <h3>Giving Back To Our Community</h3>
+            <p class="normal-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id porro minus amet totam corrupti, quas, ad cum enim ipsam dolorum quod? Dolorum, placeat. Ea consequuntur, et enim dolorem doloribus distinctio assumenda velit numquam eum impedit facere expedita? Sequi ipsum inventore quos atque nostrum amet praesentium quasi iusto harum saepe asperiores similique, dolorum tempora, sed magni, laudantium doloribus voluptatibus autem delectus sint officia adipisci! Doloribus perferendis similique quis aliquid aspernatur explicabo! Deleniti similique voluptate cupiditate quia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="meet-the-team">
+      <div class="container">
+        <h3 class="section-title">Meet Our Team!</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://images.generated.photos/4D8_DD3LZUyyYBR4wJ-OHAeyl4iON3PKdgkVmhpBoFs/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAzNTU3NjguanBn.jpg" alt="">
+              <h4 class="team-member">Billy Santos</h4>
+              <p class="employee-title">President</p>
+              <p class="normal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet eos commodi ex adipisci velit aperiam accusamus, ad assumenda dolores accusantium necessitatibus dolor? Unde cumque minus, sed incidunt eveniet doloribus esse ipsum odit nostrum animi aliquam placeat. Voluptatem asperiores deleniti, quasi obcaecati quo dolorem voluptates accusamus harum cumque possimus? Porro?</p>
+            </div>
+          </div>
+          <div class="gold-rule"></div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://images.generated.photos/E-VIgzKGeMgoUN92cusnumjHpJj5S8QEpnPCkSv9Ho4/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAwMjA2NjAuanBn.jpg" alt="">
+              <h4 class="team-member">John Doe</h4>
+              <p class="employee-title">Metal Tech</p>
+              <p class="normal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet eos commodi ex adipisci velit aperiam accusamus, ad assumenda dolores accusantium necessitatibus dolor? Unde cumque minus, sed incidunt eveniet doloribus esse ipsum odit nostrum animi aliquam placeat. Voluptatem asperiores deleniti, quasi obcaecati quo dolorem voluptates accusamus harum cumque possimus? Porro?</p>
+            </div>
+          </div>
+          <div class="gold-rule"></div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://images.generated.photos/F3N3OT3PEQgszg8GLS1dfQf2vRkjoXCwff5cjs_l5Oc/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyMDY3NDEuanBn.jpg" alt="">
+              <h4 class="team-member">Jane Doe</h4>
+              <p class="employee-title">Office Manager</p>
+              <p class="normal-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet eos commodi ex adipisci velit aperiam accusamus, ad assumenda dolores accusantium necessitatibus dolor? Unde cumque minus, sed incidunt eveniet doloribus esse ipsum odit nostrum animi aliquam placeat. Voluptatem asperiores deleniti, quasi obcaecati quo dolorem voluptates accusamus harum cumque possimus? Porro?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <img src="images/logo-horizontal-white.png" alt="" />
+          </div>
+          <div class="col-md-3 border-left">
+            <p class="footer-address">
+              97 Avenue C<br />
+              Bayonne, NJ 07002
+            </p>
+          </div>
+          <div class="col-md-3 border-left">
+            <p class="footer-phone">
+              Office: <a href="tel:+12018580287">(201) 858-0287</a><br />
+              Mobile: <a href="tel:+12018580287">(201) 779-6757</a>
+            </p>
+          </div>
+          <div class="col-md-3 border-left">
+            <p class="footer-email">
+              <a href="mailto:info@InfinityMetalAndMarble.com"
+                >info@InfinityMetalAndMarble.com</a
+              ><br />
+              Visit Us On: 
+              <a href="https://www.facebook.com/pages/category/Industrial-Company/Infinity-Metal-and-Marble-Restoration-LLC-1224796864265734/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
             </p>
           </div>
         </div>
       </div>
     </section>
+    <div class="footer-end">
+      <p>
+        &copy;2020. Infinity Metal and Marble. All Rights Reserved.
+      </p>
+    </div>
 
-    <section id="meet-the-team border-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/team/pic-1.jpg" alt="">
-            <p class="employee"> John Doe</p>
-            <p class="employee-title">President</p>
-            <p class="paragraph-text mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dolor ad beatae autem eveniet voluptates deleniti ab est, voluptate eos odio culpa incidunt facere unde illum explicabo atque quaerat cumque quisquam accusamus voluptatum suscipit quod. Similique atque libero porro quas quam autem alias quis molestiae? Voluptatibus praesentium nam tempora maxime!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            Infinity Metal and Marble, LLC. &verbar; &copy;2020. All rights reserved.
-          </div>
-          <div class="col-md-6 footer-nav">
-            <ul>
-              <li><a href="metal.html">Metal</a></li>
-              <li><a href="marble.com">Marble</a></li>
-              <li><a href="wood.html">Wood</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="footer-social">
-              <a href="#"><i class="fab fa-instagram-square"></i></a>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </footer>
-     
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
-    
   </body>
 </html>

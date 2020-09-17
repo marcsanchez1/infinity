@@ -33,12 +33,18 @@ p {
   font-weight: 700;
 }
 
-.rule {
+.gold-rule {
   width: 200px;
   height: 3px;
   background: #d1b37a;
   align-self: center;
-  margin-top: 20px;
+  margin: 20px auto;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 section {
@@ -52,10 +58,17 @@ section {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 10px;
 }
 
 .normal-text {
   font-weight: 400;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 /*********************************
@@ -72,19 +85,42 @@ section {
   display: flex;
   flex-direction: column;
 }
-/* Header Overlay */
-#main-header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  /* Header Overlay */
+  #main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+/* Header for all other pages other than homepage */
+#main-header-inner {
+  background: url("https://images.unsplash.com/photo-1506855868560-4ae177c39018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2512&q=80")
+    no-repeat center center / cover;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
+  /* Header Overlay */
+  #main-header-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
 
 /* Brings content in header to the front */
 #main-header * {
+  z-index: 2000;
+}
+#main-header-inner * {
   z-index: 2000;
 }
 
@@ -235,13 +271,39 @@ a.read-more:hover {
 #what-they-say .blockquote-footer {
   color: #d1b37a;
 }
-#what-they-say h3 {
-  margin-bottom: 60px;
-}
+
 #what-they-say .card {
   border: 1px solid #d1b37a;
   padding: 20px;
   margin: 5px;
+}
+
+/* About Us Page Section */
+#about-us img.flag {
+  width: 50px;
+}
+
+/* Meet The Team Section */
+#meet-the-team .card img {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid #d1b37a;
+  padding: 5px;
+}
+
+#meet-the-team h4.team-member {
+  margin-bottom: 5px;
+}
+
+#meet-the-team .employee-title {
+  color: #d1b37a;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#meet-the-team .gold-rule {
+  display: none;
 }
 
 /* Footer */
