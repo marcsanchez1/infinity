@@ -22,3 +22,7 @@
 #meet-the-team .gold-rule {
   display: block;
 }
+
+#parallax p.parallax-text {
+  font-size: 1.5rem;
+}
