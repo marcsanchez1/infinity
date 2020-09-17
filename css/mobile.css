@@ -30,3 +30,8 @@
 #parallax p.parallax-text {
   font-size: 1.5rem;
 }
+
+/* Hide Image */
+.hide-image {
+  display: none;
+}
