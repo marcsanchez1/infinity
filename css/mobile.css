@@ -1,0 +1,18 @@
+/* Header and Paragraph text */
+.header-content h1.header-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+.header-content p.header-text {
+  font-size: 1rem;
+}
+
+/* Logo in Navbar */
+.navbar-brand .logo {
+  width: 200px;
+}
+
+/* Services Section */
+#services .card {
+  margin-top: 30px;
+}

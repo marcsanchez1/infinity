@@ -1,9 +1,9 @@
-$('header').hide();
-setTimeout(function() {
-  $('header').slideDown(1000);
-}, 1000);
+// $('header').hide();
+// setTimeout(function() {
+//   $('header').slideDown(1000);
+// }, 1000);
 
-const navbar = document.getElementsByClassName('navbar');
+const navbar = document.getElementsByClassName('bg-dark');
     let scrolled = false;
 
     window.onscroll = function() {
@@ -21,6 +21,3 @@ const navbar = document.getElementsByClassName('navbar');
         scrolled = false;
       }
     }
-
-
-
